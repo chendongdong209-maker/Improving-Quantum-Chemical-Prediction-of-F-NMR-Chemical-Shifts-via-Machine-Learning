@@ -1,0 +1,12 @@
+jupyter
+joblib
+matplotlib
+numpy
+optuna
+pandas
+pillow
+pyarrow
+rdkit
+scikit-learn
+torch
+torch-geometric

@@ -1,0 +1,5 @@
+label,geometry,shielding_value,shift_value
+M1 Flat,Flat,395.0,-135.0
+M2 Flat,Flat,401.0,-112.0
+M1 Upright,Upright,405.0,-135.0
+M2 Upright,Upright,408.5,-112.0

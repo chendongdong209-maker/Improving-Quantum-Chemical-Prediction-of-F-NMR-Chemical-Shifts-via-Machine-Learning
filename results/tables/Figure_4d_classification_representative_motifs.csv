@@ -1,0 +1,7 @@
+bit_name,target_class,enrichment_note,importance_rank,selection_score,SMILES,shift_value,shielding_value,f_count,ring_bound_f,aromatic_f,hetero_adj_f,hetero_count,ring_count,heavy_atoms,fragment_count,molecular_weight
+Morgan_32,0,Class 0-enriched,1,27.0,CC1CC(F)CCC1NC(=O)C1CC1,-116.09,387.912,1,1,0,0,2,2,14,1,199.26899999999998
+ECFP_F_32,0,Class 0-enriched,2,27.0,CC1CCC(C(=O)NC2CC2)CC1F,-116.87,392.346,1,1,0,0,2,2,14,1,199.26899999999995
+Morgan_26,1,Class 1-enriched,23,26.0,CC1(C(=O)N2CC(CC(F)F)C2)COC1,-117.16,328.8415,2,0,0,0,3,2,15,1,219.23099999999994
+ECFP_F_26,1,Class 1-enriched,26,26.0,CC1CC(CN2CCC[C@@H]2C(F)F)ON1,-124.63,325.776,2,0,0,0,3,2,15,1,220.26300000000003
+Morgan_429,1,Class 1-enriched,4,25.5,CC(=O)NC1CCCN(CC(F)(F)F)C1=O,-70.56,276.743,3,0,0,0,4,1,16,1,238.20899999999995
+ECFP_F_429,1,Class 1-enriched,5,25.5,CC1CC(C(F)(F)F)NC(-N2CCNC2)N1,-69.85,287.2433333,3,0,0,0,4,2,16,1,238.25700000000003

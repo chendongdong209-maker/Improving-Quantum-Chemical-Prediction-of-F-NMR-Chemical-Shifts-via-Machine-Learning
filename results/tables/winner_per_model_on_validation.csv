@@ -1,0 +1,4 @@
+Model,WinnerVersion(Val),Winner_Val_MAE,WinnerModelPath
+ExtraTrees,Coarse,5.448659019567576,generated during workflow; omitted from GitHub snapshot
+RandomForest,Coarse,6.035555172413776,generated during workflow; omitted from GitHub snapshot
+DecisionTree,Refined,6.658961090527182,generated during workflow; omitted from GitHub snapshot

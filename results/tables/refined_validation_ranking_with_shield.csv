@@ -1,0 +1,4 @@
+Model,Val_MAE,Val_RMSE,Val_R2,BestRefined_CVTrain_negMAE,RefinedModelPath,RefinedCVPath,TopKSeedsUsed,NIterPerSeed,TotalItersApprox
+ExtraTrees,3.825098354086831,7.970759141860199,0.9531714370677484,-4.083234431352857,results/models/best_on_val_refined_ExtraTrees_with_shield.pkl,results/tables/cv_results_refined_extratrees_with_shield.csv,5,40,200
+RandomForest,4.5772310231131215,8.963121155087244,0.9407852374317212,-4.283388548130651,generated during workflow; omitted from GitHub snapshot,results/tables/cv_results_refined_randomforest_with_shield.csv,5,40,200
+DecisionTree,5.455711244906647,12.096908017997496,0.8921400498281306,-5.157609773545633,generated during workflow; omitted from GitHub snapshot,results/tables/cv_results_refined_decisiontree_with_shield.csv,5,40,200

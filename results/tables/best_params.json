@@ -1,0 +1,12 @@
+{
+  "DecisionTree": {
+    "ccp_alpha": 5.871163889745107e-06,
+    "criterion": "friedman_mse",
+    "max_depth": 289,
+    "max_features": 0.8,
+    "min_impurity_decrease": 2.8075668112182668e-12,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "splitter": "best"
+  }
+}

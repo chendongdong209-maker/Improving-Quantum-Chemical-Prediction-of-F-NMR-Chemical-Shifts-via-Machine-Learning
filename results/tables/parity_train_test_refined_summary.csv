@@ -1,0 +1,4 @@
+Model,Train_MAE,Train_RMSE,Train_R2,Test_MAE,Test_RMSE,Test_R2,ModelPath,FigurePath
+DecisionTree,1.9068820638474984,4.450436776573967,0.9839097984591711,6.806907356266552,13.809180891629865,0.8397128617789086,generated during workflow; omitted from GitHub snapshot,results/figures/parity_refined_DecisionTree_train_test.png
+RandomForest,2.247615773608939,4.331519684811832,0.9847581810960888,6.141184982814874,11.744877311956822,0.8840529224547238,generated during workflow; omitted from GitHub snapshot,results/figures/parity_refined_RandomForest_train_test.png
+ExtraTrees,0.02647020476215,0.2910867658203934,0.999931166296936,5.546640256782117,11.529924099218936,0.8882581815853466,results/models/best_on_val_refined_ExtraTrees.pkl,results/figures/parity_refined_ExtraTrees_train_test.png
