@@ -1,2 +1,0 @@
-Model,Train_MAE,Train_RMSE,Train_R2,Val_MAE,Val_RMSE,Val_R2,Test_MAE,Test_RMSE,Test_R2,Checkpoint,BestParams,InputCSV
-GCN_with_shielding,2.2204389572143555,2.9503014087677,0.9961353482346218,3.4452850818634038,4.718510627746582,0.9905289636153116,4.533373832702637,6.180967807769775,0.9831314191281446,results/gcn/gcn_best_with_shield_cluster1.pt,"{'hidden_channels': 512, 'num_layers': 3, 'predictor_hidden_feats': 1024, 'dropout': 0.08343724004088336, 'lr': 0.010585393028555216, 'weight_decay': 1.7618331701694268e-06}",data/processed/cleaned_shift_data_with_shield_cluster1.csv

@@ -6,8 +6,8 @@ The cleaned project is organized around four notebooks:
 
 1. `test.ipynb`
    Main tabular workflow on the full curated dataset: data cleaning, feature engineering, baseline benchmarking, hyperparameter refinement, and shielding-aware model comparison.
-2. `test_cluster1.ipynb`
-   Regression-mixture clustering, Cluster 1 subset construction, cluster-specific modeling, and cross-instrument calibration workflow.
+2. `test_class1.ipynb`
+   Regression-mixture class partitioning, Class 1 subset construction, class-specific modeling, and cross-instrument calibration workflow.
 3. `test_gcn.ipynb`
    Shielding-aware GCN workflow, including graph construction, Optuna search, final training, and GCN-based comparisons.
 4. `draw.ipynb`
@@ -29,7 +29,7 @@ The cleaned project is organized around four notebooks:
 ├── draw.ipynb
 ├── plotting_standard.py
 ├── test.ipynb
-├── test_cluster1.ipynb
+├── test_class1.ipynb
 └── test_gcn.ipynb
 ```
 
@@ -44,10 +44,10 @@ The core processed datasets used by the main workflows are:
 
 - `data/processed/cleaned_shift_data.csv`
 - `data/processed/cleaned_shift_data_with_shield.csv`
-- `data/processed/cleaned_shift_data_with_shield_cluster1.csv`
+- `data/processed/cleaned_shift_data_with_shield_class1.csv`
 - `data/processed/features_dataset.parquet`
 - `data/processed/features_dataset_with_shield.parquet`
-- `data/processed/features_dataset_with_shield_cluster1.parquet`
+- `data/processed/features_dataset_with_shield_class1.parquet`
 - `data/processed/features_dataset_60M_NMR.parquet`
 
 ## Results Convention
@@ -68,7 +68,7 @@ Only the compact final ExtraTrees models are versioned in the GitHub-ready snaps
 ## Recommended Execution Order
 
 1. Run `test.ipynb`.
-2. Run `test_cluster1.ipynb`.
+2. Run `test_class1.ipynb`.
 3. Run `test_gcn.ipynb`.
 4. Run `draw.ipynb` to regenerate manuscript figures from the saved outputs.
 

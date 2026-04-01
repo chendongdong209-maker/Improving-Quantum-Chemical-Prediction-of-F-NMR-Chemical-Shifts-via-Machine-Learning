@@ -1,0 +1,14 @@
+# Python cache and notebook artifacts
+__pycache__/
+.ipynb_checkpoints/
+*.py[cod]
+
+# OS artifacts
+Thumbs.db
+.DS_Store
+
+# Keep only the compact final ExtraTrees models in Git
+results/models/*.pkl
+!results/models/best_on_val_refined_ExtraTrees.pkl
+!results/models/best_on_val_refined_ExtraTrees_with_shield.pkl
+!results/models/best_on_val_refined_ExtraTrees_class1.pkl

@@ -1,0 +1,2 @@
+model,dataset,target_col,n_test,n_features,MAE,RMSE,R2
+best_on_val_refined_ExtraTrees_class1.pkl,features_dataset_with_shield_class1.csv,shift_value,127,2223,3.6905834645669287,5.566414103904027,0.9863190362432551
